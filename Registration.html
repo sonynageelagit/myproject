@@ -1,0 +1,32 @@
+->Registration.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+</head>
+<body>
+    <h2>Event Registration Form</h2>
+    <form action="#" method="post">
+        <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phoneNumber">Phone Number:</label><br>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required><br><br>
+
+        <label for="eventSelection">Event Selection:</label><br>
+        <select id="eventSelection" name="eventSelection" required>
+            <option value="workshop">Workshop</option>
+            <option value="seminar">Seminar</option>
+            <option value="conference">Conference</option>
+        </select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+
